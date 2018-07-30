@@ -1,0 +1,41 @@
+<!-- source/flats/show.html.erb -->
+
+<!-- Access data.flats with owner's name as key -->
+<% flat = data.flats[owner] %>
+
+<!-- Inject flat data in template -->
+
+<div class="wrapper" style="background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.2)), url('https://kitt.lewagon.com/placeholder/cities/<%= flat.city_slug %>');">
+  <div class="container">
+    <div class="grid">
+      <div class="profile_infos card-profile img-rounded align-center">
+       <%= image_tag "https://kitt.lewagon.com/placeholder/users/#{owner}", class: "img-circle img-small" %>
+       <p><%= flat.name %></p>
+       <p><%= flat.city_name %></p>
+     </div>
+     <div class="description card-profile img-rounded">
+      <h2><%= flat.description %></h1>
+        <p><%= flat.details %></p>
+      </div>
+      <div class="rooms card-profile img-rounded">
+       <h2><span><i class="fa fa-home"></i></span> Rooms</h2>
+       <p><%= flat.rooms %></p>
+     </div>
+     <div class="beds card-profile img-rounded">
+       <div class="title">
+        <h2><span><i class="fa fa-bed"></i></span> Beds</h2>
+      </div>
+
+      <p><%= flat.beds %></p>
+    </div>
+    <div class="rooftop card-profile img-rounded">
+     <h2><span><i class="fa fa-glass-martini"></i></span> Rooftop</h2>
+     <p><%= flat.rooftop %></p>
+   </div>
+   <div class="wifi card-profile img-rounded">
+     <h2><span><i class="fa fa-wifi"></i></span> Wifi</h2>
+     <p><%= flat.wifi %></p>
+   </div>
+ </div>
+</div>
+</div>

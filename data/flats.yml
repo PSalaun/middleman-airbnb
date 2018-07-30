@@ -1,0 +1,55 @@
+ssaunier:
+  name: "Sebastien's home"
+  description: "Charming room in Montmartre"
+  details:
+  city_name: "Paris, France"
+  city_slug: "paris"
+  wifi: false
+  rating: 4
+  rooftop: yes
+  rooms: 5
+  beds: 4
+papillard:
+  name: "Boris' home"
+  description: Small flat in Tokyo
+  details:
+  city_name: "Tokyo, Japan"
+  city_slug: "tokyo"
+  wifi: true
+  rating: 3
+  rooftop: yes
+  rooms: 5
+  beds: 4
+monsieurpaillard:
+  name: Romain's home
+  description: Nice flat in Piccadilly
+  details:
+  city_name: "London, UK"
+  city_slug: "london"
+  wifi: true
+  rating: 5
+  rooftop: yes
+  rooms: 5
+  beds: 4
+pierre:
+  name: Pierre's home
+  description: Nice flat in Shanghai
+  details:
+  city_name: "Shanghai, CN"
+  city_slug: "shangai"
+  wifi: false
+  rating: 1
+  rooftop: yes
+  rooms: 5
+  beds: 4
+boris:
+  name: Boris's home
+  description: Broken door flat in Cartagena
+  details: This is a nice flat in the center of Cartagena. They are a shitload of dealers and prostitutes around, so you can get high easily, which is pretty handy to make the right decision at 4 AM when you're trying to bring home a girl and that you don't have the keys.
+  city_name: "Cartagena, COL"
+  city_slug: "bali"
+  wifi: true
+  rating: 4
+  rooftop: yes
+  rooms: 5
+  beds: 4
