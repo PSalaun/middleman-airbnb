@@ -6,16 +6,16 @@
   <meta name="viewport"
   content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <!-- Use the title from a page's frontmatter if it has one -->
-  <title>Le Wagon - Middleman - About</title>
-  <link href="stylesheets/application-87d86fca.css" rel="stylesheet" />
-  <script src="javascripts/application-93de88c9.js"></script>
-  <link href="images/favicon-f15af148.png" rel="icon" type="image/png" />
+  <title></title>
+  <link href="../stylesheets/application-87d86fca.css" rel="stylesheet" />
+  <script src="../javascripts/application-93de88c9.js"></script>
+  <link href="../images/favicon-f15af148.png" rel="icon" type="image/png" />
 </head>
 <body>
   <div class="navbar-wagon">
   <!-- Logo -->
   <a href="/" class="navbar-wagon-brand">
-    <img src="images/logo-acc9c0ec.png" id="logo" alt="Logo" />
+    <img src="../images/logo-acc9c0ec.png" id="logo" alt="Logo" />
   </a>
 
   <!-- Right Navigation -->
@@ -52,26 +52,45 @@
   </div>
 </div>
 
-  <div id="about">
-  <div class="about-content">
-    <h1>This template was built with <i class="fa fa-heart"></i> by</h1>
-    <ul class="list-inline">
-        <li>
-<a href="https://kitt.lewagon.com/alumni/ssaunier" target="_blank">            <img src="https://kitt.lewagon.com/placeholder/users/ssaunier" class="img-circle" alt="Ssaunier" />
-</a>          <h2>Sébastien Saunier</h2>
-          <p>
-<a href="https://github.com/ssaunier" target="_blank">              <i class="fa fa-github"></i> ssaunier
-</a>          </p>
-        </li>
-        <li>
-<a href="https://kitt.lewagon.com/alumni/Papillard" target="_blank">            <img src="https://kitt.lewagon.com/placeholder/users/Papillard" class="img-circle" alt="Papillard" />
-</a>          <h2>Boris Paillard</h2>
-          <p>
-<a href="https://github.com/Papillard" target="_blank">              <i class="fa fa-github"></i> Papillard
-</a>          </p>
-        </li>
-    </ul>
-  </div>
+  <!-- source/flats/show.html.erb -->
+
+<!-- Access data.flats with owner's name as key -->
+
+<!-- Inject flat data in template -->
+
+<div class="wrapper" style="background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.2)), url('https://kitt.lewagon.com/placeholder/cities/shangai');">
+  <div class="container">
+    <div class="grid">
+      <div class="profile_infos card-profile img-rounded align-center">
+       <img src="https://kitt.lewagon.com/placeholder/users/psalaun" class="img-circle img-small" alt="Psalaun" />
+       <p>Pierre's home</p>
+       <p>Shanghai, CN</p>
+     </div>
+     <div class="description card-profile img-rounded">
+      <h2>Nice flat in Shanghai</h1>
+        <p></p>
+      </div>
+      <div class="rooms card-profile img-rounded">
+       <h2><span><i class="fa fa-home"></i></span> Rooms</h2>
+       <p>5</p>
+     </div>
+     <div class="beds card-profile img-rounded">
+       <div class="title">
+        <h2><span><i class="fa fa-bed"></i></span> Beds</h2>
+      </div>
+
+      <p>4</p>
+    </div>
+    <div class="rooftop card-profile img-rounded">
+     <h2><span><i class="fa fa-glass-martini"></i></span> Rooftop</h2>
+     <p>true</p>
+   </div>
+   <div class="wifi card-profile img-rounded">
+     <h2><span><i class="fa fa-wifi"></i></span> Wifi</h2>
+     <p>false</p>
+   </div>
+ </div>
+</div>
 </div>
 
   <div class="footer">
