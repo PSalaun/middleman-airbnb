@@ -31,7 +31,7 @@ monsieurpaillard:
   rooftop: yes
   rooms: 5
   beds: 4
-pierre:
+psalaun:
   name: Pierre's home
   description: Nice flat in Shanghai
   details:
